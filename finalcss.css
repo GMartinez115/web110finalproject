@@ -1,0 +1,158 @@
+	.body {
+		font-family: arial;
+		font-size: 25px;
+		background-color: rgb(53, 57, 53);
+	}
+	
+	.h1 { 
+		text-align: center;
+		font-size: 85px;
+		padding-top: 75px;
+		padding-bottom: 50px;
+		background-color: rgb(42, 170, 138);
+		border-radius: 50px;
+	}
+	
+	.img_1r {
+		width: 200px;
+		float: right;
+		position: absolute;
+		top: 110px;
+		right: 50px;
+		transition: 0.5s;
+	}
+	
+	.img_1r:hover {
+		width: 250px;
+	}
+	
+	.img_1l {
+		width: 200px;
+		float: left;
+		position: absolute;
+		top: 110px;
+		left: 50px;
+		transition: 0.5s;
+	}
+	
+	.img_1l:hover {
+		width: 250px;
+	}
+	
+	.img_2 {
+		margin: 100px 30px 30px 1px;
+		width: 650px;
+		border: 4px solid black;
+		float: right;
+	}
+	
+	.p1 {
+		text-align: center;
+		background-color: rgb(255,255,255,0.5);
+		width: 650px;
+		height: 125px;
+		padding: 20px 50px 20px 50px;
+		margin: auto;
+		border-radius: 30px;
+	}
+	
+	.p2 {
+		text-align: center;
+		background-color: rgb(255,255,255,0.5);
+		width: 430px;
+		height: 200px;
+		padding: 60px 50px 30px 50px;
+		border-radius: 30px;
+		float: left;
+		position: absolute;
+		top: 900px;
+	}
+	
+	.divlinks_1 {
+		margin-top: 80px;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	.divlinks_2 {
+		margin-bottom: 80px;
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	.links_1 {
+		border: 3px solid black;
+		padding: 50px 260px 50px 260px;
+		background-color: rgb(255, 215, 0);
+		text-align: center;
+		border-radius: 30px;
+		text-decoration: none;
+		color: black;
+	}
+	
+	.links_2 {
+		border: 3px solid black;
+		padding: 30px 12% 30px 12%;
+		background-color: rgb(42, 170, 138);
+		text-align: center;
+		border-radius: 30px;
+		text-decoration: none;
+		color: black;
+	}
+	
+	.links_3 {
+		border: 3px solid black;
+		padding: 30px 12% 30px 12%;
+		background-color: rgb(42, 170, 138);
+		text-align: center;
+		border-radius: 30px;
+		text-decoration: none;
+		color: black;
+	}
+	
+	.links_1:hover {
+		background-color: rgb(218, 165, 32);
+	}
+	
+	.links_2:hover {
+		background-color: rgb(42, 170, 300);
+	}
+	
+	.links_3:hover {
+		background-color: rgb(42, 170, 300);
+	}
+	
+	.signup {
+		text-align: center;
+		background-color: rgb(255,255,255,0.5);
+		width: 450px;
+		height: 680px;
+		padding: 20px 50px 20px 50px;
+		margin: auto;
+		border-radius: 30px;
+		border: 4px solid black;
+	}
+	
+	input[type=text], input[type=password], input[type=submit] {
+		width: 100%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: white;
+		font-size: 25px;
+	}
+	
+	input[type=text]:focus, input[type=password]:focus, input[type=submit]:focus {
+		background-color: rgb(208, 211, 212);
+		outline: none;
+}
+
+
+	input[type=submit]:hover {
+		background-color: rgb(208, 211, 212);
+	}
+	
+	label {
+		float: left;
+	}
